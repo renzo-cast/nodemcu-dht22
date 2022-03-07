@@ -1,0 +1,30 @@
+esphome:
+  name: node-bpm280
+  platform: ESP8266
+  board: nodemcuv2
+
+wifi:
+  networks:
+    - ssid: !secret wifi_ssid
+      password: !secret wifi_password
+
+# Enable logging
+logger:
+
+# Enable Home Assistant API
+api:
+  password: !secret api_password
+
+# Enable OTA
+ota:
+  password: !secret ota_password
+    
+sensor:
+  - platform: dht
+    pin: D2
+    model: AM2302
+    temperature:
+      name: "temperature"
+    humidity:
+      name: "humidity"
+    update_interval: 60s

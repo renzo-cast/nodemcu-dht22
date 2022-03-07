@@ -1,0 +1,4 @@
+* Netlist created with www.circuit-diagram.org
+* 
+'microcontroller #1:0 #0:1 #2:2 header=DHT22 sz=4 p0=VCC p1=GND p2=DATA p3=GND p4= p5= p6= p7= p8= p9= p10= p11= p12= p13= p14= p15= p16= p17= p18= p19= p20= p21= p22= p23= p24= p25= p26= p27= p28= p29= p30= p31= p32= p33= p34= p35= p36= p37= p38= p39=
+'microcontroller #13:0 #11:1 #5:2 header=NodeMCU sz=30 p0=A0 p1=D0 p2=RSV p3=D1 p4=RSV p5=D2 p6=SD3 p7=D3 p8=SD2 p9=D4 p10=SD1 p11=3V3 p12=CMD p13=GND p14=SD0 p15=D5 p16=CLK p17=D6 p18=GND p19=D7 p20=3V3 p21=D8 p22=EN p23=RX p24=RST p25=TX p26=GND p27=GND p28=Vin p29=3V3 p30= p31= p32= p33= p34= p35= p36= p37= p38= p39=
